@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family: 'Source Code Pro', monospace;
-    color: #00ff00;
+    color: #f1ce07;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,9 +11,9 @@ body {
 }
 
 #terminal {
-    width: 80%;
-    height: 80%;
-    border: 1px solid #00ff00;
+    width: 99%;
+    height: 97%;
+    border: 1px solid #146D19;
     padding: 20px;
     overflow-y: auto;
     box-sizing: border-box;
@@ -28,10 +28,10 @@ body {
     width: 100%;
     background-color: black;
     border: none;
-    color: #00ff00;
+    color: #146D19;
     font-size: 1.2em;
     outline: none;
-    caret-color: #00ff00;
+    caret-color: #;
 }
 
 #cleiton {
@@ -47,3 +47,30 @@ body {
 .hidden {
     display: none;
 }
+
+.MarcaOPED {
+            position: fixed;
+            right: 20px;    /* Distância da borda direita */
+            bottom: 20px;   /* Distância da borda inferior */
+            width: 200px;   /* Largura da imagem */
+            height: auto;   /* Mantém a proporção */
+            z-index: 1000;  /* Garante que fique acima de outros elementos */
+
+}
+
+
+ 
+    
+        .texto-sobre {
+            position: absolute;
+            top: 0; /* Alinha no topo da imagem */
+            left: 0;
+            width: 100%;
+            color: white;
+            background: rgba(0,0,0,0.5); /* fundo escuro semi-transparente */
+            text-align: center;
+            font-size: 16px;
+            padding: 5px 0;
+            font-family: Arial, sans-serif;
+        }
+       
